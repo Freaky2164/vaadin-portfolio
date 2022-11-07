@@ -1,6 +1,6 @@
 ﻿Paul-Louis Faller, TINF21B4
 Software Enginnering, Prof. Luo
-# ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.001.png)Vaadin
+Vaadin
 
 ## Was ist Vaadin?
 „Vaadin ist ein […] Open-Source-Framework, das die einfache Erstellung auch komplexer browserbasierter Applikationen ermöglicht. Vaadin abstrahiert hierbei für die normale Programmierung von HTML, JavaScript, AJAX und browserspezifschen Details und bietet ein javabasiertes Programmiermodell mit Widgets und Events an, das sehr stark an klassiche UI-Programmierung in Java angelehnt ist.“ 
@@ -24,7 +24,7 @@ Beim Starten der Anwendung wird automatisch ein Tomcat-Server hochgefahren auf d
 ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.004.png)
 ## Vaadin-Plattformen
 Vaadin bietet als Framework neben den eigentlichen Grundbausteinen zur Erstellung von Web-Applikationen auch weitere Plattformen an, die den Entwicklungsprozess beschleunigen und angenehmer machen. Im Folgenden daher eine Zusammenfassung der drei wichtigsten Plattformen für Entwickler.
-### ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.005.png) Vaadin Designer 
+### Vaadin Designer 
 Dieser ermöglicht es per Drag & Drop die einzelnen UI Komponenten von Vaadin in ein Fenster zu ziehen und so das Erstellen des passenden Designs zu erleichtern.
 
 ![C:\Users\P.FALLER\Desktop\Vaadin Portfolio Screenshots\Vaadin Designer Screenshot.png](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.006.png)
@@ -34,14 +34,14 @@ Der Designer ist in drei Abschnitte unterteilt. Im linken Fenster wird das Desig
 
 
 
-### ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.007.png) TestBench
+### TestBench
 TestBench ist ein Werkzeug welches auf das Test-Framework Selenium aufbaut und genutzt werden kann um Integration Tests zu erstellen. Der Vorteil gegenüber Selenium ist, dass die Selektion und Manipulation von UI Komponenten erheblich erleichtert wird und so Testklassen deutlich leichter zu schreiben sind.
 
 ![C:\Users\P.FALLER\Desktop\Vaadin Portfolio Screenshots\TestBench Screenshot.png](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.008.png)
 
 Um UI-Tests mithilfe von TestBench zuschreiben wird die Hilfsklasse AbstractViewTest erstellt, von der die Testklasse erben muss. Diese sorgt dafür das automatisch die Testumgebung erzeugt wird. Bezüglich der Testfälle verhält sich TestBench ähnlich wie Selenium, da man ebenfalls mit Annotations wie Before, After und Test arbeitet. In den einzelnen Methoden können UI-Komponenten mithilfe des *$-*Operator anhand ihrer Klasse selektiert wird. Dabei verhält sich TestBench ähnlich wie JQuery da man verschiedene Selektoren aneinanderreihen kann, umso einzelne Komponenten gezielt auszuwählen. TestBench bietet für diese Elemente dann Methoden wie *setValue* oder *sendKeys* um Nutzereingaben simulieren zu können. Über die *Assert*-Methoden kann man dann die entsprechenden Ausgaben wieder überprüfen.
 
-### ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.009.png)Design System Publisher
+### Design System Publisher
 Diese Plattform kann genutzt werden um individuelle UI-Komponenten und entsprechende Dokumentation an einem Ort zu speichern und abrufen zu können.![C:\Users\P.FALLER\Desktop\Vaadin Portfolio Screenshots\Design System Publisher Screenshot.png](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.010.png)
 
 ![C:\Users\P.FALLER\Desktop\Vaadin Portfolio Screenshots\Komponenten Design System Screenshot.png](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.011.png)
