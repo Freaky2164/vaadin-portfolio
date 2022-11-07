@@ -23,8 +23,8 @@ Beim Starten der Anwendung wird automatisch ein Tomcat-Server hochgefahren auf d
 
 ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.004.png)
 ## Vaadin-Plattformen
-![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.005.png)Vaadin bietet als Framework neben den eigentlichen Grundbausteinen zur Erstellung von Web-Applikationen auch weitere Plattformen an, die den Entwicklungsprozess beschleunigen und angenehmer machen. Im Folgenden daher eine Zusammenfassung der drei wichtigsten Plattformen für Entwickler.
-### Vaadin Designer 
+Vaadin bietet als Framework neben den eigentlichen Grundbausteinen zur Erstellung von Web-Applikationen auch weitere Plattformen an, die den Entwicklungsprozess beschleunigen und angenehmer machen. Im Folgenden daher eine Zusammenfassung der drei wichtigsten Plattformen für Entwickler.
+### ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.005.png) Vaadin Designer 
 Dieser ermöglicht es per Drag & Drop die einzelnen UI Komponenten von Vaadin in ein Fenster zu ziehen und so das Erstellen des passenden Designs zu erleichtern.
 
 ![C:\Users\P.FALLER\Desktop\Vaadin Portfolio Screenshots\Vaadin Designer Screenshot.png](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.006.png)
@@ -34,7 +34,7 @@ Der Designer ist in drei Abschnitte unterteilt. Im linken Fenster wird das Desig
 
 
 
-### ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.007.png)TestBench
+### ![](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.007.png) TestBench
 TestBench ist ein Werkzeug welches auf das Test-Framework Selenium aufbaut und genutzt werden kann um Integration Tests zu erstellen. Der Vorteil gegenüber Selenium ist, dass die Selektion und Manipulation von UI Komponenten erheblich erleichtert wird und so Testklassen deutlich leichter zu schreiben sind.
 
 ![C:\Users\P.FALLER\Desktop\Vaadin Portfolio Screenshots\TestBench Screenshot.png](Aspose.Words.f20fe63f-ce64-4983-b8ff-1619ec55d8bb.008.png)
